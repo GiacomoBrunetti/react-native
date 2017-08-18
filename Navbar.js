@@ -21,16 +21,19 @@ export default class Navbar extends Component {
 
 const styles = {
   navbar: {
-    height: 100,
+    height: 70,
     backgroundColor: 'steelblue',
-    width: 300,
+    width: 378,
     flexDirection: 'row',
-    alignItems: 'center'
+    alignItems: 'flex-end',
+    justifyContent: 'space-between'
 
   },
   button: {
-    height: 150,
-    width: 150,
-    backgroundColor: 'blue'
+    height: 100,
+    width: 200,
+    padding: 50,
+    verticalAlign: 'bottom',
+    paddingBottom: 0
   }
 }
