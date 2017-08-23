@@ -7,6 +7,5 @@
  `create-react-native-app MyApp`
  
  Finally: 
- `cd MyApp
- yarn start`
+ `cd MyApp && yarn start`
  
